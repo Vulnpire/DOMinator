@@ -25,7 +25,7 @@ Pattern '(?i)document\.write\(' found in script:
     var test = "<iframe src='http://blockchain.info' width='1' height='1'></iframe>";
     document.write(test); 
 
-Possible DOM XSS vulnerabilities detected in http://examplee.com:80/Pricings.php:
+Possible DOM XSS vulnerabilities detected in http://example.com:80/Pricings.php:
 Pattern '(?i)setTimeout\(' found in script:
 
     function getelem(objId) {
