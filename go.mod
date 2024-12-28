@@ -1,4 +1,4 @@
-module dominator
+module github.com/Vulnpire/dominator
 
 go 1.23.2
 
