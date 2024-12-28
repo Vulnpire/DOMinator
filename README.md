@@ -92,6 +92,16 @@ Future improvements could include:
 - Dynamic analysis using browser automation tools like Puppeteer.
 - Exploitation testing for confirmed vulnerabilities. (not sure)
 
+## Axiom Support
+
+`» cat ~/.axiom/modules/dominator.json`
+```
+[{
+        "command":"cat input | dominator -r | anew output",
+        "ext":"txt"
+}]
+```
+
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
